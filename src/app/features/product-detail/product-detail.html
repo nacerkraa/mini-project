@@ -1,1 +1,30 @@
-<p>product-detail works!</p>
+<main class="container">
+  <!-- Left: Product Image -->
+  <div class="left-column">
+    <img [src]="product?.imageUrl" alt="{{ product?.name }}" />
+  </div>
+
+  <!-- Right: Product Info -->
+  <div class="right-column">
+    <h1 class="product-title">{{ product?.name }}</h1>
+    <p class="product-description">{{ product?.description }}</p>
+
+    <!-- Phone as plain info -->
+    <p class="product-phone"><strong>Phone:</strong> +213 558 951 032</p>
+
+    <!-- Price -->
+    <p class="product-price">{{ product?.price }} DA</p>
+
+    <!-- Actions -->
+    <div class="product-actions">
+      <a href="tel:+213558951032" class="btn btn-primary"> <i class="fas fa-phone"></i> Call Us </a>
+      <a
+        href="https://wa.me/213558951032?text=Hello%20I%20am%20interested%20in%20this%20product"
+        target="_blank"
+        class="btn btn-success"
+      >
+        <i class="fab fa-whatsapp"></i> WhatsApp Us
+      </a>
+    </div>
+  </div>
+</main>
