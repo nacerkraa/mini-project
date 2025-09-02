@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "price": "120,000 DA",
+      "imageUrl": "assets/products/example-1.jpg",
+      "shortDesc": "Titanium design, A17 Pro chip.",
+      "description": "Powerful, lightweight, pro camera system. Great battery life."
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": "110,000 DA",
+      "imageUrl": "assets/products/example-2.jpg",
+      "shortDesc": "Epic camera, S Pen included.",
+      "description": "200MP camera, great performance, all-day battery, vivid display."
+    }
+]
+  
