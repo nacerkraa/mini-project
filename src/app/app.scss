@@ -58,14 +58,17 @@ body {
   position: absolute;
 }
 
-.addedToCart {
-  font-size: 1.5em;
-  margin-right: 25px;
+.phone-icon {
+  font-weight: 100; /* lighter weight */
+  opacity: 0.7; /* softer look */
+  color: #555; /* gray tone instead of black */
 }
+
 #user {
   display: flex;
   /* float: right; */
   align-items: center;
+  justify-content: end;
 }
 
 .userIcon {

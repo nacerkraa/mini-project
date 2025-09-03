@@ -2,7 +2,6 @@
 <section class="bg-gray-100 py-12 text-center">
   <h1 class="text-4xl font-bold mb-4">Welcome to AutoParts Store 🚗</h1>
   <p class="text-lg text-gray-600 mb-6">Quality auto parts, best prices, pay on delivery!</p>
-  <button class="btn btn-primary">Shop Now</button>
 </section>
 
 <!-- Featured Products -->
@@ -24,7 +23,7 @@
             <p class="card-text">
               <small class="text-muted">{{ product.shortDesc }}</small>
             </p>
-            <p class="text-gray-700 mb-4">{{ product.price }} DA</p>
+            <p class="text-success mb-4">{{ product.price }} DA</p>
             <a [routerLink]="['/product', product.id]" class="btn btn-secondary">View Details</a>
           </div>
         </div>
