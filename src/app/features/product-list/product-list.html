@@ -1,13 +1,15 @@
 <!-- Hero Section -->
 <section class="bg-gray-100 py-12 text-center">
-  <h1 class="text-4xl font-bold mb-4">Welcome to AutoParts Store 🚗</h1>
-  <p class="text-lg text-gray-600 mb-6">Quality auto parts, best prices, pay on delivery!</p>
+  <h1 class="text-4xl font-bold mb-4">Bienvenue chez AutoParts Store 🚗</h1>
+  <p class="text-lg text-gray-600 mb-6">
+    Pièces auto de qualité, meilleurs prix, paiement à la livraison !
+  </p>
 </section>
 
 <!-- Featured Products -->
 <section class="py-12 px-6 bg-gray-50">
   <div class="container">
-    <h2 class="text-2xl font-semibold mb-6 text-center">Featured Products</h2>
+    <h2 class="text-2xl font-semibold mb-6 text-center">Produits en vedette</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div class="card-group gap-3">
         @for (product of products; track $index) {
@@ -24,7 +26,7 @@
               <small class="text-muted">{{ product.shortDesc }}</small>
             </p>
             <p class="text-success mb-4">{{ product.price }} DA</p>
-            <a [routerLink]="['/product', product.id]" class="btn btn-secondary">View Details</a>
+            <a [routerLink]="['/product', product.id]" class="btn btn-secondary">Voir le détail</a>
           </div>
         </div>
         }
